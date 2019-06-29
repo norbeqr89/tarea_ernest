@@ -1,6 +1,7 @@
 nav { 
     text-align: center;
     width: 100%;
+    position: fixed;
     .nav-header-ul {
         display: flex;
         justify-content: space-evenly
@@ -17,11 +18,18 @@ nav.header2 {
         height: 56px;
         border-bottom: 1px solid lightgrey;
     }
-// .nav-header-ul {
-//         display: flex;
-//         justify-content: space-around
-//     }
+
     li{
         display: inline;
     }
+    // .table-container {
+    //     position: fixed;
+    //     top: 112px;
+    //     background-color: red;
+    //     width: 100vw;
+    //     height: 80vh;
+    //     margin: 1rem;
+    //     overflow-y: scroll;
+    //     // margin-right: 1rem;
+    // }
     

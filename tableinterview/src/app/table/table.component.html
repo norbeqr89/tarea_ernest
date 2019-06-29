@@ -1,9 +1,39 @@
-<table style="width:100%">
-        <tr>
-          <th>Firstname</th>
+<div class="table-container">
+<table style="width:100%" class="fixed-table-header">
+    <thead> 
+        <tr >
+          <th *ngFor="let header of headers">{{header}}</th>
         </tr>
-        <tr>
-          <td>joe</td>
+    </thead>
+    <tbody>
+       <tr *ngFor="let row of data">
+          <td>{{row.name}}</td>
+          <td>{{row.phone}}</td>
+          <td>{{row.email}}</td>
+          <td>{{row.company}}</td>
+          <td>{{row.date_entry}}</td>
+          <td>{{row.org_num}}</td>
+          <td>{{row.address_1}}</td>
+          <td>{{row.city}}</td>
+          <td>{{row.zip}}</td>
+          <td>{{row.geo}}</td>
+          <td>{{row.pan}}</td>
+          <td>{{row.pin}}</td>
+          <td>{{row.id}}</td>
+          <td>{{row.status}}</td>
+          <td>{{row.fee}}</td>
+          <td>{{row.guid}}</td>
+          <td>{{row.date_exit}}</td>
+          <td>{{row.date_first}}</td>
+          <td>{{row.date_recent}}</td>
+          <td>{{row.url}}</td>
         </tr>
+    </tbody>
+    <tfoot  class="table-foot">
+            <tr>
+              <td colspan="0">Pager</td>
+            </tr>
+    </tfoot>
         
-      </table>
+</table>
+</div>
