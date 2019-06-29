@@ -10,7 +10,7 @@ table, th, td {
 table-layout: auto;
 }
 
-.fixed-table-header{
+.fixed-table-header tbody{
   display:block;
   width: 100%;
   overflow: auto;
@@ -33,13 +33,3 @@ table-layout: auto;
 //   padding: 5px;
 //   text-align: left;
 // }
-.table-container {  
-    background-color: red; 
-    position: fixed;
-    top: 112px;
-    width: 100vw;
-    max-height: 80vh;
-    margin: 1rem;
-    overflow-y: auto;
-    // margin-right: 1rem;
-}

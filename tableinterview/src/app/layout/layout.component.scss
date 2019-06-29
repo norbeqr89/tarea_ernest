@@ -15,21 +15,20 @@ nav.header1 {
     }
 nav.header2 {
         top:56px;
-        height: 56px;
+        height: 40px;
         border-bottom: 1px solid lightgrey;
     }
 
     li{
         display: inline;
     }
-    // .table-container {
-    //     position: fixed;
-    //     top: 112px;
-    //     background-color: red;
-    //     width: 100vw;
-    //     height: 80vh;
-    //     margin: 1rem;
-    //     overflow-y: scroll;
-    //     // margin-right: 1rem;
-    // }
+    .table-container {
+        position: relative;
+        top: 112px;
+        width: 100vw;
+        height: 80vh;
+        margin: 1rem;
+        overflow-y: scroll;
+        // margin-right: 1rem;
+    }
     
