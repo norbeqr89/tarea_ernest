@@ -1,0 +1,27 @@
+nav { 
+    text-align: center;
+    width: 100%;
+    .nav-header-ul {
+        display: flex;
+        justify-content: space-evenly
+    }
+}
+nav.header1 {
+        font-size: 1.2rem;
+        background-color: rgba(222, 223, 224, 0.5);
+        top: 0;
+        height: 56px;
+    }
+nav.header2 {
+        top:56px;
+        height: 56px;
+        border-bottom: 1px solid lightgrey;
+    }
+// .nav-header-ul {
+//         display: flex;
+//         justify-content: space-around
+//     }
+    li{
+        display: inline;
+    }
+    
